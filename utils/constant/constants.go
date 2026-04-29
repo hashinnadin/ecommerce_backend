@@ -9,4 +9,9 @@ const (
 	NOTFOUND            = 404
 	CONFLICT            = 409
 	INTERNALSERVERERROR = 500
+
+	// Generic status strings
+	INVALID_REQ    = "Invalid request body"
+	UN_AUTH        = "Unauthorized"
+	INTERNAL_ERROR = "Internal error"
 )
